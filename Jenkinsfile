@@ -5,6 +5,7 @@ pipeline {
             steps {
                 sh 'javac HelloWorld.java && java HelloWorld'
                 sh 'echo "Hello World"'
+                sh 'python hello.py'
             }
         }
     }
